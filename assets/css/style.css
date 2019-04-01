@@ -1,0 +1,128 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+   box-sizing: border-box;
+
+}
+p{
+    font-size:19px;
+    letter-spacing:0.5px;
+}
+ul {
+    list-style-type: none;
+}
+
+.menu ul {
+    flex: 1;
+    font-size: 20px;
+}
+
+.icon ul {
+    flex: 1;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.slider .position-absolute {
+    top: 40%;
+    left: 32%;
+}
+
+.slider p {
+    font-size: 25px;
+}
+
+.row .position-absolute {
+    left: 40%;
+    top: 50%;
+        z-index: 1;
+    
+}
+
+.head, .head2 {
+    display: none;
+}
+
+.trans {
+    background: rgba(255, 255, 255, 0.8);
+    width: 350px;
+    height: 447px;
+    position: absolute;
+    top: 0px;
+    left: 15px;
+
+}
+.trans2 {
+    background: rgba(255, 255, 255, 0.8);
+    width: 255px;
+    height: 340px;
+    position: absolute;
+    top: 0px;
+    left:0px;
+
+}
+.btn2{
+    position: absolute;
+    top:45%;
+    left: 30%;
+}
+.btn3{
+    position: absolute;
+    top:60%;
+    left: 30%;
+}
+.row .col-lg-4:hover .head {
+    display: flex;
+}
+.row .col-lg-3:hover .head2 {
+    display: flex;
+}
+
+.add {
+    font-size: 50px;
+    top: 10%;
+    left: 35%;
+}
+.btn4{
+    position: absolute;
+    top:33%;
+    left: 40%;
+}
+.icons{
+    position: absolute;
+    top:5%;
+    right: 5%;;
+}
+.add p{
+    font-size: 55px;
+}
+.footer p{
+    font-size: 12px;
+}
+
+@media screen and (max-width:900px) {
+    
+    .slider p,
+    h1 {
+        font-size: 12px;
+    }
+
+    .slider .position-absolute {
+        top: 20%;
+        left: 10%;
+    }
+
+    .add {
+        font-size: 20px;
+        top: 10%;
+        left: 35%;
+    }
+    .add p{
+        font-size: 20px;
+    }
+    .btn4{
+    top:40%;
+    left:25%;
+}
+    
+    
+}

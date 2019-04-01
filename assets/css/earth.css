@@ -1,0 +1,739 @@
+.earth, .earth-detail, .earth-urun, .earth-hesap, .earth-more {
+  font-family: 'Work Sans', sans-serif;
+  box-sizing: border-box !important; }
+  .earth ul, .earth-detail ul, .earth-urun ul, .earth-hesap ul, .earth-more ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+  .earth a, .earth-detail a, .earth-urun a, .earth-hesap a, .earth-more a {
+    text-decoration: none; }
+  .earth header, .earth-detail header, .earth-urun header, .earth-hesap header, .earth-more header {
+    padding: 30px 30px; }
+    .earth header img, .earth-detail header img, .earth-urun header img, .earth-hesap header img, .earth-more header img {
+      width: 200px; }
+    .earth header nav .nav-item, .earth-detail header nav .nav-item, .earth-urun header nav .nav-item, .earth-hesap header nav .nav-item, .earth-more header nav .nav-item {
+      padding-left: 5px; }
+      .earth header nav .nav-item a, .earth-detail header nav .nav-item a, .earth-urun header nav .nav-item a, .earth-hesap header nav .nav-item a, .earth-more header nav .nav-item a {
+        padding: 0;
+        color: #333333;
+        font-size: 18px; }
+    .earth header ul li, .earth-detail header ul li, .earth-urun header ul li, .earth-hesap header ul li, .earth-more header ul li {
+      padding-left: 33px; }
+      .earth header ul li a, .earth-detail header ul li a, .earth-urun header ul li a, .earth-hesap header ul li a, .earth-more header ul li a {
+        color: #333333;
+        font-size: 18px; }
+    .earth header select, .earth-detail header select, .earth-urun header select, .earth-hesap header select, .earth-more header select {
+      font-size: 18px; }
+  .earth section .men .women, .earth-detail section .men .women, .earth-urun section .men .women, .earth-hesap section .men .women, .earth-more section .men .women {
+    position: relative;
+    overflow: hidden; }
+  .earth section .men .women:before, .earth-detail section .men .women:before, .earth-urun section .men .women:before, .earth-hesap section .men .women:before, .earth-more section .men .women:before {
+    background-color: rgba(255, 255, 255, 0.9);
+    content: '';
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: all 0.2s ease 0s;
+    -webkit-transition: all 0.2s ease 0s;
+    -moz-transition: all 0.2s ease 0s;
+    -ms-transition: all 0.2s ease 0s;
+    -o-transition: all 0.2s ease 0s; }
+  .earth section .men a, .earth-detail section .men a, .earth-urun section .men a, .earth-hesap section .men a, .earth-more section .men a {
+    top: 45%;
+    font-size: 30px;
+    opacity: 0;
+    color: black;
+    transition: all 0.2s ease 0s;
+    -webkit-transition: all 0.2s ease 0s;
+    -moz-transition: all 0.2s ease 0s;
+    -ms-transition: all 0.2s ease 0s;
+    -o-transition: all 0.2s ease 0s;
+    bottom: auto;
+    left: 0;
+    position: absolute;
+    right: 0;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%); }
+  .earth section .men .women:hover::before, .earth-detail section .men .women:hover::before, .earth-urun section .men .women:hover::before, .earth-hesap section .men .women:hover::before, .earth-more section .men .women:hover::before {
+    opacity: 1 !important; }
+  .earth section .men .women:hover a, .earth-detail section .men .women:hover a, .earth-urun section .men .women:hover a, .earth-hesap section .men .women:hover a, .earth-more section .men .women:hover a {
+    opacity: 1 !important; }
+  .earth section .summer, .earth-detail section .summer, .earth-urun section .summer, .earth-hesap section .summer, .earth-more section .summer {
+    background-image: url("../../assets/img/summer_img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 78px 0 97px;
+    animation-name: fadeInUp; }
+    .earth section .summer h2, .earth-detail section .summer h2, .earth-urun section .summer h2, .earth-hesap section .summer h2, .earth-more section .summer h2 {
+      font-size: 48px;
+      color: #333333;
+      font-style: normal;
+      font-weight: 600; }
+    .earth section .summer a, .earth-detail section .summer a, .earth-urun section .summer a, .earth-hesap section .summer a, .earth-more section .summer a {
+      padding: 15px 19px;
+      background-color: #f74f2e;
+      color: #fff;
+      font-size: 18px;
+      border: 1px solid transparent;
+      border-radius: 0;
+      transition-duration: 0.3s;
+      transition-timing-function: ease-in-out;
+      transition: all 0.2s ease 0s;
+      -webkit-transition: all 0.2s ease 0s; }
+    .earth section .summer a:hover, .earth-detail section .summer a:hover, .earth-urun section .summer a:hover, .earth-hesap section .summer a:hover, .earth-more section .summer a:hover {
+      background-color: darkred; }
+  .earth section .products h3, .earth-detail section .products h3, .earth-urun section .products h3, .earth-hesap section .products h3, .earth-more section .products h3 {
+    font-weight: 400;
+    font-size: 30px;
+    color: #333333; }
+  .earth section .products .product, .earth-detail section .products .product, .earth-urun section .products .product, .earth-hesap section .products .product, .earth-more section .products .product {
+    position: relative; }
+    .earth section .products .product .buttons, .earth-detail section .products .product .buttons, .earth-urun section .products .product .buttons, .earth-hesap section .products .product .buttons, .earth-more section .products .product .buttons {
+      bottom: auto;
+      left: 0;
+      position: absolute;
+      right: 0;
+      transform: translateY(-50%);
+      -webkit-transform: translateY(-50%);
+      z-index: 1;
+      opacity: 0;
+      transition: all 0.2s ease 0s;
+      -webkit-transition: all 0.2s ease 0s;
+      -moz-transition: all 0.2s ease 0s;
+      -ms-transition: all 0.2s ease 0s;
+      -o-transition: all 0.2s ease 0s;
+      top: 45%; }
+      .earth section .products .product .buttons button, .earth-detail section .products .product .buttons button, .earth-urun section .products .product .buttons button, .earth-hesap section .products .product .buttons button, .earth-more section .products .product .buttons button {
+        text-transform: uppercase;
+        margin: 0 auto 11px;
+        padding: 7px 28px;
+        font-size: 14px;
+        opacity: 1;
+        background-color: #f74f2e;
+        color: #fff;
+        border: 1px solid transparent;
+        border-radius: 0;
+        transition-duration: 0.3s;
+        transition-timing-function: ease-in-out; }
+      .earth section .products .product .buttons a, .earth-detail section .products .product .buttons a, .earth-urun section .products .product .buttons a, .earth-hesap section .products .product .buttons a, .earth-more section .products .product .buttons a {
+        font-size: 14px;
+        opacity: 1;
+        display: table;
+        margin: 0 auto 11px;
+        padding: 7px 32px;
+        color: #f74f2e;
+        border: 1px solid #f74f2e;
+        text-transform: uppercase;
+        background: transparent;
+        transition-duration: 0.3s;
+        transition-timing-function: ease-in-out; }
+    .earth section .products .product .like, .earth-detail section .products .product .like, .earth-urun section .products .product .like, .earth-hesap section .products .product .like, .earth-more section .products .product .like {
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      border: 1px solid #d2d2d2;
+      width: 36px;
+      height: 36px;
+      opacity: 0;
+      border-radius: 50% !important;
+      text-align: center !important;
+      color: #d2d2d2;
+      z-index: 1; }
+    .earth section .products .product .sale, .earth-detail section .products .product .sale, .earth-urun section .products .product .sale, .earth-hesap section .products .product .sale, .earth-more section .products .product .sale {
+      background: #ff0202;
+      position: absolute;
+      padding: 0 8px;
+      color: #fff;
+      z-index: 1;
+      top: 10px;
+      font-size: 14px;
+      text-transform: uppercase !important; }
+      .earth section .products .product .sale span, .earth-detail section .products .product .sale span, .earth-urun section .products .product .sale span, .earth-hesap section .products .product .sale span, .earth-more section .products .product .sale span {
+        border-bottom: 10px solid #ff0202;
+        border-top: 11px solid #ff0202;
+        position: absolute;
+        border-right: 5px solid transparent;
+        top: 0;
+        right: -5px; }
+  .earth section .products .product:before, .earth-detail section .products .product:before, .earth-urun section .products .product:before, .earth-hesap section .products .product:before, .earth-more section .products .product:before {
+    background-color: rgba(255, 255, 255, 0.9);
+    content: '';
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    z-index: 1;
+    transition: all 0.2s ease 0s;
+    -webkit-transition: all 0.2s ease 0s;
+    -moz-transition: all 0.2s ease 0s;
+    -ms-transition: all 0.2s ease 0s;
+    -o-transition: all 0.2s ease 0s; }
+  .earth section .products .pro:hover .product::before, .earth-detail section .products .pro:hover .product::before, .earth-urun section .products .pro:hover .product::before, .earth-hesap section .products .pro:hover .product::before, .earth-more section .products .pro:hover .product::before {
+    opacity: 1;
+    bottom: 0;
+    height: 100%; }
+  .earth section .products .pro:hover .buttons, .earth-detail section .products .pro:hover .buttons, .earth-urun section .products .pro:hover .buttons, .earth-hesap section .products .pro:hover .buttons, .earth-more section .products .pro:hover .buttons {
+    opacity: 1;
+    top: 50%; }
+  .earth section .products .pro:hover a p, .earth-detail section .products .pro:hover a p, .earth-urun section .products .pro:hover a p, .earth-hesap section .products .pro:hover a p, .earth-more section .products .pro:hover a p {
+    color: #f74f2e; }
+  .earth section .products .pro:hover .like, .earth-detail section .products .pro:hover .like, .earth-urun section .products .pro:hover .like, .earth-hesap section .products .pro:hover .like, .earth-more section .products .pro:hover .like {
+    opacity: 1; }
+  .earth section .products .property a p, .earth-detail section .products .property a p, .earth-urun section .products .property a p, .earth-hesap section .products .property a p, .earth-more section .products .property a p {
+    font-size: 14px;
+    margin-bottom: 6px;
+    color: black;
+    font-weight: 300; }
+  .earth section .products .property p, .earth-detail section .products .property p, .earth-urun section .products .property p, .earth-hesap section .products .property p, .earth-more section .products .property p {
+    font-size: 17.9px;
+    color: #333333;
+    font-style: normal;
+    font-weight: 600; }
+    .earth section .products .property p .ucuz, .earth-detail section .products .property p .ucuz, .earth-urun section .products .property p .ucuz, .earth-hesap section .products .property p .ucuz, .earth-more section .products .property p .ucuz {
+      color: #888;
+      text-decoration: line-through;
+      font-weight: normal;
+      margin-right: 10px; }
+  .earth section .products .size .aktif, .earth-detail section .products .size .aktif, .earth-urun section .products .size .aktif, .earth-hesap section .products .size .aktif, .earth-more section .products .size .aktif {
+    color: #f74f2e;
+    border-color: #f74f2e; }
+  .earth section .products .size span, .earth-detail section .products .size span, .earth-urun section .products .size span, .earth-hesap section .products .size span, .earth-more section .products .size span {
+    font-size: 12px;
+    margin-bottom: 0;
+    display: block;
+    line-height: 28px;
+    border: 1px solid #aaa;
+    border-radius: 0;
+    height: 30px;
+    width: 30px;
+    margin-right: 5px; }
+  .earth section .latest_blog h3, .earth-detail section .latest_blog h3, .earth-urun section .latest_blog h3, .earth-hesap section .latest_blog h3, .earth-more section .latest_blog h3 {
+    font-size: 30px;
+    color: #333333;
+    font-weight: 400; }
+  .earth section .latest_blog .blog .date, .earth-detail section .latest_blog .blog .date, .earth-urun section .latest_blog .blog .date, .earth-hesap section .latest_blog .blog .date, .earth-more section .latest_blog .blog .date {
+    padding: 2px 10px 4px;
+    background-color: #ddd;
+    font-size: 14px;
+    margin-bottom: 13px;
+    position: relative;
+    line-height: 16px;
+    display: inline-block; }
+  .earth section .latest_blog .blog .shape, .earth-detail section .latest_blog .blog .shape, .earth-urun section .latest_blog .blog .shape, .earth-hesap section .latest_blog .blog .shape, .earth-more section .latest_blog .blog .shape {
+    border-bottom: 11px solid #ddd;
+    border-top: 11px solid #ddd;
+    position: absolute;
+    border-right: 5px solid transparent;
+    top: 0;
+    right: -5px; }
+  .earth section .latest_blog .blog a h5, .earth-detail section .latest_blog .blog a h5, .earth-urun section .latest_blog .blog a h5, .earth-hesap section .latest_blog .blog a h5, .earth-more section .latest_blog .blog a h5 {
+    font-size: 17.9px;
+    color: #333333;
+    font-style: normal;
+    font-weight: 600; }
+  .earth section .latest_blog .blog a:hover h5, .earth-detail section .latest_blog .blog a:hover h5, .earth-urun section .latest_blog .blog a:hover h5, .earth-hesap section .latest_blog .blog a:hover h5, .earth-more section .latest_blog .blog a:hover h5 {
+    color: #f74f2e; }
+  .earth section .latest_blog .blog p, .earth-detail section .latest_blog .blog p, .earth-urun section .latest_blog .blog p, .earth-hesap section .latest_blog .blog p, .earth-more section .latest_blog .blog p {
+    font-weight: 400;
+    color: #333333;
+    font-size: 18px; }
+  .earth section .seen h3, .earth-detail section .seen h3, .earth-urun section .seen h3, .earth-hesap section .seen h3, .earth-more section .seen h3 {
+    font-size: 30px;
+    color: #333333;
+    font-weight: 400; }
+  .earth section .seen img, .earth-detail section .seen img, .earth-urun section .seen img, .earth-hesap section .seen img, .earth-more section .seen img {
+    max-width: 100%;
+    height: auto; }
+  .earth section .instagram .title, .earth-detail section .instagram .title, .earth-urun section .instagram .title, .earth-hesap section .instagram .title, .earth-more section .instagram .title {
+    z-index: 5;
+    font-weight: 400;
+    color: #333333;
+    font-size: 18px;
+    position: relative;
+    padding: 89px 0 69.5px 30px;
+    background-position: 100% 100% !important;
+    background-size: cover !important;
+    background-image: url("../../assets/img/comming_soon_img_small.jpg");
+    background-repeat: no-repeat; }
+  .earth section .instagram .title:before, .earth-detail section .instagram .title:before, .earth-urun section .instagram .title:before, .earth-hesap section .instagram .title:before, .earth-more section .instagram .title:before {
+    background-color: rgba(255, 255, 255, 0.9);
+    content: '';
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; }
+  .earth section .instagram h3, .earth-detail section .instagram h3, .earth-urun section .instagram h3, .earth-hesap section .instagram h3, .earth-more section .instagram h3 {
+    position: relative;
+    font-weight: 400;
+    line-height: 43px;
+    margin-bottom: 3px; }
+  .earth section .instagram i, .earth-detail section .instagram i, .earth-urun section .instagram i, .earth-hesap section .instagram i, .earth-more section .instagram i {
+    font-size: 28px;
+    position: relative;
+    line-height: 43px;
+    font-weight: 400; }
+  .earth section .instagram p, .earth-detail section .instagram p, .earth-urun section .instagram p, .earth-hesap section .instagram p, .earth-more section .instagram p {
+    position: relative;
+    font-size: 18px;
+    color: #333;
+    line-height: 1.5; }
+  .earth section .sign h3, .earth-detail section .sign h3, .earth-urun section .sign h3, .earth-hesap section .sign h3, .earth-more section .sign h3 {
+    font-size: 30px;
+    color: #333333;
+    font-weight: 400; }
+  .earth section .sign input, .earth-detail section .sign input, .earth-urun section .sign input, .earth-hesap section .sign input, .earth-more section .sign input {
+    color: #888;
+    border: 1px solid #aaa;
+    border-radius: 0;
+    padding: 10px 18px 11px;
+    font-size: 18px;
+    font-weight: 400;
+    width: 388px; }
+  .earth section .sign button, .earth-detail section .sign button, .earth-urun section .sign button, .earth-hesap section .sign button, .earth-more section .sign button {
+    padding: 8px 18px 10px;
+    border-radius: 0;
+    margin-left: 10px;
+    font-size: 18px;
+    color: #f74f2e;
+    border: 1px solid #f74f2e;
+    cursor: pointer;
+    background: transparent;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out; }
+  .earth footer, .earth-detail footer, .earth-urun footer, .earth-hesap footer, .earth-more footer {
+    background-color: #f5f5f5; }
+    .earth footer img, .earth-detail footer img, .earth-urun footer img, .earth-hesap footer img, .earth-more footer img {
+      width: 200px; }
+    .earth footer .footer-top, .earth-detail footer .footer-top, .earth-urun footer .footer-top, .earth-hesap footer .footer-top, .earth-more footer .footer-top {
+      padding: 39px 0 15px; }
+    .earth footer .footer-middle, .earth-detail footer .footer-middle, .earth-urun footer .footer-middle, .earth-hesap footer .footer-middle, .earth-more footer .footer-middle {
+      padding: 35px 0 40px; }
+      .earth footer .footer-middle .social-icon li, .earth-detail footer .footer-middle .social-icon li, .earth-urun footer .footer-middle .social-icon li, .earth-hesap footer .footer-middle .social-icon li, .earth-more footer .footer-middle .social-icon li {
+        margin-right: 4px; }
+        .earth footer .footer-middle .social-icon li a, .earth-detail footer .footer-middle .social-icon li a, .earth-urun footer .footer-middle .social-icon li a, .earth-hesap footer .footer-middle .social-icon li a, .earth-more footer .footer-middle .social-icon li a {
+          background: #949ca8;
+          width: 30px;
+          height: 30px;
+          display: block;
+          position: relative;
+          vertical-align: middle;
+          align-items: center;
+          font-size: 18px;
+          color: white;
+          padding-top: 3px; }
+    .earth footer .footer-bottom, .earth-detail footer .footer-bottom, .earth-urun footer .footer-bottom, .earth-hesap footer .footer-bottom, .earth-more footer .footer-bottom {
+      background: #1c1c1c;
+      padding: 25px 0; }
+      .earth footer .footer-bottom p, .earth-detail footer .footer-bottom p, .earth-urun footer .footer-bottom p, .earth-hesap footer .footer-bottom p, .earth-more footer .footer-bottom p {
+        font-size: 14px;
+        color: #888888; }
+    .earth footer p, .earth-detail footer p, .earth-urun footer p, .earth-hesap footer p, .earth-more footer p {
+      color: #333333;
+      font-size: 18px;
+      font-weight: 400; }
+    .earth footer h5, .earth-detail footer h5, .earth-urun footer h5, .earth-hesap footer h5, .earth-more footer h5 {
+      font-size: 17.9px;
+      color: #333333;
+      font-style: normal;
+      font-weight: 500;
+      margin-top: -4px;
+      margin-bottom: 12px; }
+    .earth footer li, .earth-detail footer li, .earth-urun footer li, .earth-hesap footer li, .earth-more footer li {
+      list-style-type: none; }
+      .earth footer li a, .earth-detail footer li a, .earth-urun footer li a, .earth-hesap footer li a, .earth-more footer li a {
+        font-size: 14px;
+        color: #333; }
+    .earth footer .bord, .earth-detail footer .bord, .earth-urun footer .bord, .earth-hesap footer .bord, .earth-more footer .bord {
+      border-left: 1px solid #e0dcdc;
+      padding-left: 19px; }
+
+.earth-detail .breadcrumb-nav {
+  background-color: #f9f9f9;
+  border-top: 1px solid #eee;
+  padding: 12px 0px 11px; }
+  .earth-detail .breadcrumb-nav h1 {
+    font-size: 32px;
+    font-weight: 400;
+    margin: 0; }
+  .earth-detail .breadcrumb-nav ol {
+    background: transparent !important; }
+    .earth-detail .breadcrumb-nav ol li a {
+      color: #f74f2e; }
+.earth-detail section .bordar {
+  height: 147px;
+  background: #ededed;
+  align-items: center;
+  align-self: center;
+  display: flex;
+  border: 1px solid #e0dcdc;
+  cursor: pointer; }
+.earth-detail section .right-side {
+  border: 1px solid #e0dcdc;
+  padding: 36px 18px 28px; }
+  .earth-detail section .right-side .product-title {
+    border-bottom: 1px solid #e0dcdc;
+    padding-bottom: 36px;
+    margin-bottom: 32px; }
+    .earth-detail section .right-side .product-title h1 {
+      font-size: 24px;
+      color: #333333;
+      font-style: normal; }
+    .earth-detail section .right-side .product-title span a {
+      color: #3dc346; }
+    .earth-detail section .right-side .product-title span i {
+      color: #c6c6c6; }
+  .earth-detail section .right-side .quantity {
+    border-bottom: 1px solid #e0dcdc;
+    padding-bottom: 35px;
+    margin-bottom: 40px; }
+    .earth-detail section .right-side .quantity h5 {
+      font-size: 17.9px;
+      color: #333333;
+      font-style: normal;
+      font-weight: 600; }
+    .earth-detail section .right-side .quantity input {
+      width: 71px;
+      height: 48px;
+      text-align: center;
+      border: 1px solid #aaa;
+      padding: 3px; }
+    .earth-detail section .right-side .quantity input::placeholder {
+      color: black; }
+    .earth-detail section .right-side .quantity span {
+      width: 71px;
+      height: 48px;
+      text-align: center;
+      cursor: pointer;
+      border: 1px solid #aaa;
+      padding: 13px 13px 14px 13px; }
+  .earth-detail section .right-side .product-button a {
+    padding: 13px 18px 14px;
+    margin-right: 14px;
+    display: inline-block;
+    cursor: pointer;
+    line-height: normal;
+    color: #f74f2e;
+    font-size: 18px;
+    border: 1px solid #f74f2e;
+    background: transparent;
+    transition-duration: 0.3s;
+    text-transform: uppercase;
+    transition-timing-function: ease-in-out; }
+  .earth-detail section .right-side .product-button a:hover {
+    color: white;
+    background: #f74f2e; }
+  .earth-detail section .right-side .product-button button {
+    border: 0;
+    font-size: 18px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 13px 19px 14px;
+    margin-top: 0;
+    line-height: normal;
+    text-transform: uppercase;
+    background-color: #f74f2e;
+    color: #fff; }
+  .earth-detail section .right-side .product-share ul {
+    list-style-type: none; }
+    .earth-detail section .right-side .product-share ul li {
+      margin-right: 4px;
+      vertical-align: middle; }
+      .earth-detail section .right-side .product-share ul li a {
+        background: #949ca8;
+        width: 30px;
+        height: 30px;
+        display: block;
+        position: relative;
+        color: #e9ecf0;
+        font-size: 18px; }
+        .earth-detail section .right-side .product-share ul li a i {
+          padding-top: 5px; }
+  .earth-detail section .right-side .product-share p {
+    font-weight: 400;
+    color: #333333;
+    font-size: 18px; }
+.earth-detail section .description p {
+  color: #333333;
+  font-weight: 400;
+  font-size: 18px; }
+.earth-detail section .description strong {
+  color: #333;
+  font-weight: 600; }
+.earth-detail section .description h5 {
+  font-size: 17.9px;
+  color: #333333;
+  font-style: normal;
+  font-weight: 600; }
+.earth-detail section .size-chart, .earth-detail section .reviews {
+  width: 100%;
+  border: 0;
+  border-top: 1px solid #e0dcdc;
+  padding: 16px 0 15px;
+  color: #333333;
+  text-decoration: none;
+  cursor: pointer; }
+  .earth-detail section .size-chart a, .earth-detail section .reviews a {
+    color: #333;
+    font-size: 18px;
+    font-weight: 600; }
+.earth-detail section .reviews .spr-header h2 {
+  font-size: 24px;
+  color: #333333;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #e0dcdc;
+  padding-bottom: 15px; }
+.earth-detail section .reviews .spr-header span {
+  font-size: 18px; }
+.earth-detail section .reviews .spr-header a {
+  font-weight: 400;
+  color: #f74f2e; }
+.earth-detail section .reviews .comment {
+  margin: 24px 0 0 0;
+  padding: 24px 0 0 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1); }
+  .earth-detail section .reviews .comment h3 {
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 0;
+    cursor: inherit; }
+  .earth-detail section .reviews .comment form .form-group {
+    margin: 20px 0 !important; }
+    .earth-detail section .reviews .comment form .form-group label {
+      font-size: 17.9px !important;
+      color: #333333;
+      font-style: normal !important;
+      font-weight: 600; }
+    .earth-detail section .reviews .comment form .form-group i {
+      color: #c6c6c6; }
+  .earth-detail section .reviews .comment form button {
+    padding: 15px 19px;
+    background-color: #f74f2e;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 0;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    line-height: normal;
+    font-size: 18px; }
+
+.earth-urun section h4 {
+  color: #333;
+  font-weight: 600; }
+.earth-urun section table {
+  color: #888;
+  font-size: 14px; }
+  .earth-urun section table thead {
+    background: black;
+    color: #888; }
+  .earth-urun section table img {
+    width: 80px; }
+.earth-urun section .bilgi .kargo {
+  width: 300px; }
+  .earth-urun section .bilgi .kargo .tarih {
+    background: #e7e7e7; }
+  .earth-urun section .bilgi .kargo p {
+    color: black;
+    font-size: 14px;
+    font-weight: 600; }
+    .earth-urun section .bilgi .kargo p span {
+      font-weight: 400;
+      color: #888; }
+
+.earth-hesap section label {
+  font-size: 14px;
+  color: #333; }
+.earth-hesap section input, .earth-hesap section select {
+  background: transparent; }
+.earth-hesap section input::placeholder {
+  font-size: 14px;
+  color: #888; }
+.earth-hesap section h4, .earth-hesap section h6 {
+  color: #333;
+  font-weight: 600; }
+.earth-hesap section .ekle {
+  color: #f74f2e;
+  font-weight: 500;
+  font-size: 14px; }
+.earth-hesap section .kaldir {
+  color: darkred;
+  font-weight: 500;
+  font-size: 14px; }
+.earth-hesap section .guncelle {
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  background: #f74f2e; }
+.earth-hesap section .head .hesap {
+  background: #e7e7e7;
+  border: 1px solid darkgrey; }
+  .earth-hesap section .head .hesap p {
+    font-size: 14px;
+    color: black; }
+    .earth-hesap section .head .hesap p span {
+      color: #888; }
+
+.earth-more .breadcrumb-nav {
+  background-color: #f9f9f9;
+  border-top: 1px solid #eee;
+  padding: 12px 0px 11px; }
+  .earth-more .breadcrumb-nav h1 {
+    font-size: 32px;
+    font-weight: 400;
+    margin: 0; }
+  .earth-more .breadcrumb-nav .active a {
+    color: #333; }
+  .earth-more .breadcrumb-nav ol {
+    background: transparent !important; }
+    .earth-more .breadcrumb-nav ol li a {
+      color: #f74f2e; }
+.earth-more aside .collections, .earth-more aside .availables, .earth-more aside .womens, .earth-more aside .mens, .earth-more aside .accessories, .earth-more aside .shop, .earth-more aside .sizes, .earth-more aside .color {
+  background: #fff;
+  border: 1px solid #e0dcdc; }
+  .earth-more aside .collections .collection, .earth-more aside .availables .collection, .earth-more aside .womens .collection, .earth-more aside .mens .collection, .earth-more aside .accessories .collection, .earth-more aside .shop .collection, .earth-more aside .sizes .collection, .earth-more aside .color .collection {
+    border-bottom: 1px solid #e0dcdc;
+    padding: 15px 8px 15px 10px; }
+    .earth-more aside .collections .collection h5, .earth-more aside .availables .collection h5, .earth-more aside .womens .collection h5, .earth-more aside .mens .collection h5, .earth-more aside .accessories .collection h5, .earth-more aside .shop .collection h5, .earth-more aside .sizes .collection h5, .earth-more aside .color .collection h5 {
+      font-size: 17.9px;
+      color: #333333;
+      font-style: normal;
+      margin-bottom: 0;
+      padding-bottom: 0;
+      font-weight: 600; }
+    .earth-more aside .collections .collection span, .earth-more aside .availables .collection span, .earth-more aside .womens .collection span, .earth-more aside .mens .collection span, .earth-more aside .accessories .collection span, .earth-more aside .shop .collection span, .earth-more aside .sizes .collection span, .earth-more aside .color .collection span {
+      cursor: pointer; }
+  .earth-more aside .collections #demo ul, .earth-more aside .availables #demo ul, .earth-more aside .womens #demo ul, .earth-more aside .mens #demo ul, .earth-more aside .accessories #demo ul, .earth-more aside .shop #demo ul, .earth-more aside .sizes #demo ul, .earth-more aside .color #demo ul {
+    padding: 9px 10px 12px;
+    list-style-type: none; }
+    .earth-more aside .collections #demo ul li, .earth-more aside .availables #demo ul li, .earth-more aside .womens #demo ul li, .earth-more aside .mens #demo ul li, .earth-more aside .accessories #demo ul li, .earth-more aside .shop #demo ul li, .earth-more aside .sizes #demo ul li, .earth-more aside .color #demo ul li {
+      margin-bottom: 7px; }
+      .earth-more aside .collections #demo ul li a, .earth-more aside .availables #demo ul li a, .earth-more aside .womens #demo ul li a, .earth-more aside .mens #demo ul li a, .earth-more aside .accessories #demo ul li a, .earth-more aside .shop #demo ul li a, .earth-more aside .sizes #demo ul li a, .earth-more aside .color #demo ul li a {
+        color: #333333;
+        line-height: normal;
+        font-size: 14px; }
+      .earth-more aside .collections #demo ul li button, .earth-more aside .availables #demo ul li button, .earth-more aside .womens #demo ul li button, .earth-more aside .mens #demo ul li button, .earth-more aside .accessories #demo ul li button, .earth-more aside .shop #demo ul li button, .earth-more aside .sizes #demo ul li button, .earth-more aside .color #demo ul li button {
+        color: #f74f2e;
+        font-size: 14px;
+        cursor: pointer; }
+.earth-more aside .availables, .earth-more aside .womens, .earth-more aside .mens, .earth-more aside .accessories, .earth-more aside .shop, .earth-more aside .sizes, .earth-more aside .color {
+  line-height: normal;
+  font-size: 14px; }
+  .earth-more aside .availables ul, .earth-more aside .womens ul, .earth-more aside .mens ul, .earth-more aside .accessories ul, .earth-more aside .shop ul, .earth-more aside .sizes ul, .earth-more aside .color ul {
+    padding: 15px 10px 12px; }
+    .earth-more aside .availables ul li, .earth-more aside .womens ul li, .earth-more aside .mens ul li, .earth-more aside .accessories ul li, .earth-more aside .shop ul li, .earth-more aside .sizes ul li, .earth-more aside .color ul li {
+      margin-bottom: 7px; }
+  .earth-more aside .availables .check label, .earth-more aside .womens .check label, .earth-more aside .mens .check label, .earth-more aside .accessories .check label, .earth-more aside .shop .check label, .earth-more aside .sizes .check label, .earth-more aside .color .check label {
+    position: relative;
+    padding-left: 19px;
+    margin-bottom: 0;
+    cursor: pointer;
+    font-size: 14px; }
+  .earth-more aside .availables .check label:before, .earth-more aside .womens .check label:before, .earth-more aside .mens .check label:before, .earth-more aside .accessories .check label:before, .earth-more aside .shop .check label:before, .earth-more aside .sizes .check label:before, .earth-more aside .color .check label:before {
+    width: 13px;
+    height: 13px;
+    content: '';
+    border-radius: 50%;
+    bottom: auto;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    border: 1px solid #e0dcdc; }
+.earth-more aside .womens .inputs, .earth-more aside .mens .inputs, .earth-more aside .accessories .inputs, .earth-more aside .shop .inputs, .earth-more aside .sizes .inputs, .earth-more aside .color .inputs {
+  border: 0;
+  width: 100%;
+  font-size: 12px;
+  border-bottom: 1px solid #e0dcdc;
+  color: #888888; }
+.earth-more aside .womens button i, .earth-more aside .mens button i, .earth-more aside .accessories button i, .earth-more aside .shop button i, .earth-more aside .sizes button i, .earth-more aside .color button i {
+  font-size: 12px;
+  color: #888888; }
+.earth-more aside .womens button, .earth-more aside .mens button, .earth-more aside .accessories button, .earth-more aside .shop button, .earth-more aside .sizes button, .earth-more aside .color button {
+  color: #f74f2e;
+  font-size: 14px;
+  cursor: pointer; }
+.earth-more aside .color .blue, .earth-more aside .color .yellow, .earth-more aside .color .white {
+  width: 34px;
+  height: 34px;
+  border: 1px solid #e0dcdc;
+  background: blue; }
+.earth-more aside .color .yellow {
+  background: yellow; }
+.earth-more aside .color .white {
+  background: white; }
+.earth-more .sort .grid {
+  vertical-align: middle; }
+  .earth-more .sort .grid .active {
+    color: #333; }
+.earth-more .sort ul {
+  line-height: normal;
+  vertical-align: middle; }
+  .earth-more .sort ul li:not(:last-child) {
+    border-right: 1px solid #aaa;
+    padding-right: 10px;
+    margin-right: 4px; }
+  .earth-more .sort ul li {
+    cursor: pointer; }
+    .earth-more .sort ul li a {
+      color: #aaaaaa;
+      font-size: 35px; }
+.earth-more .sort form label {
+  vertical-align: middle;
+  margin-right: 2px;
+  text-transform: capitalize;
+  margin-bottom: 3px;
+  font-size: 17.9px;
+  color: #333333;
+  font-style: normal;
+  white-space: nowrap;
+  font-weight: 500; }
+.earth-more .sort form select {
+  border: 1px solid #aaa;
+  border-radius: 0;
+  padding: 11.5px 18px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: inherit;
+  height: auto; }
+.earth-more .sort form .show {
+  width: auto !important; }
+.earth-more .sort form .sorts {
+  min-width: 224px; }
+
+@media screen and (max-width: 992px) {
+  .earth header, .earth-detail header, .earth-urun header, .earth-hesap header, .earth-more header {
+    padding: 10px; }
+  .earth section .summer, .earth-detail section .summer, .earth-urun section .summer, .earth-hesap section .summer, .earth-more section .summer {
+    padding: 22px 0 37px; }
+    .earth section .summer h2, .earth-detail section .summer h2, .earth-urun section .summer h2, .earth-hesap section .summer h2, .earth-more section .summer h2 {
+      font-size: 24px; }
+  .earth section .instagram .title, .earth-detail section .instagram .title, .earth-urun section .instagram .title, .earth-hesap section .instagram .title, .earth-more section .instagram .title {
+    padding: 20px; }
+  .earth footer .bord, .earth-detail footer .bord, .earth-urun footer .bord, .earth-hesap footer .bord, .earth-more footer .bord {
+    border-left: 0; }
+  .earth footer .borda, .earth-detail footer .borda, .earth-urun footer .borda, .earth-hesap footer .borda, .earth-more footer .borda {
+    padding-left: 19px; }
+
+  .earth-more .sort form .show {
+    min-width: 260px; } }
+
+/*# sourceMappingURL=earth.css.map */
